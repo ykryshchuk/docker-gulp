@@ -12,6 +12,7 @@ WORKDIR $GULP_SOURCE_DIR
 
 RUN apt-get update && apt-get install -y \
 	g++ make python \
+	git \
 	libpng-dev
 
 RUN npm install -g gulp
