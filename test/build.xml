@@ -1,0 +1,5 @@
+<project name="Gulp build on Docker">
+    <target name="build">
+    
+    </target>
+</project>
